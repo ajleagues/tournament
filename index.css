@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e0e0e0; /* Фоновый цвет страницы */
+}
+
+.header {
+    background-color: #ffffff; /* Фон заголовка */
+    padding: 20px 0; /* Внутренние отступы сверху и снизу */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Тень вокруг элемента */
+}
+
+.container {
+    width: 80%; /* Ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера по горизонтали */
+}
+
+.header-line {
+    display: flex; /* Использование flexbox для дочерних элементов */
+    justify-content: space-between; /* Размещение дочерних элементов по краям */
+    align-items: center; /* Вертикальное центрирование дочерних элементов */
+}
+
+.header-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.header-burger img {
+    width: 25px;
+    height: auto;
+}
+
+.nav a {
+    margin: 0 10px; /* Внешние отступы для ссылок */
+    text-decoration: none; /* Удаление подчеркивания у ссылок */
+    color: #200c3e; /* Цвет текста ссылок */
+    font-weight: 400; /* Вес шрифта (обратите внимание, что medium не является допустимым значением, можно использовать 500) */
+}
+
+.nav a:hover {
+    color: #130527; /* Цвет текста ссылок при наведении */
+    /*font-size: 1.1em;  Увеличение размера шрифта при наведении */
+}
+
+.content {
+    display: flex; /* Использование flexbox для дочерних элементов */
+    justify-content: space-between; /* Равномерное распределение пространства между дочерними элементами */
+    padding: 20px 0; /* Внутренние отступы сверху и снизу */
+    gap: 20px; /* Промежуток между блоками "БОМБАРДИРЫ" и "АССИСТЕНТЫ" */
+    margin: 0 120px; /* Центрирование содержимого по горизонтали */
+}
+
+.main-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65%; /* Устанавливаем ширину для блока main-column */
+}
+
+.matches {
+    background-color: #ffffff; /* Фоновый цвет */
+    padding: 20px; /* Внутренние отступы */
+    border-radius: 0; /* Радиус скругления углов */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Тень вокруг элемента */
+}
+
+.matches h2 {
+    background-color: #1A0A40; /* Фоновый цвет заголовка */
+    color: #ffffff; /* Цвет текста */
+    padding: 15px 20px; /* Внутренние отступы */
+    margin: -20px -20px 10px -20px; /* Внешние отступы */
+    font-weight: bold; /* Жирный шрифт */
+    font-size: 20px; /* Размер шрифта */
+}
+
+.block {
+    display: flex;
+    justify-content: center; /* Центрируем фотографии по горизонтали */
+    gap: 25px;
+    margin: 20px 20px 10px 20px;
+}
+
+
+.league-table {
+    width: 30%; /* Увеличиваем ширину блока "AJ League" */
+    background-color: #ffffff; /* Фоновый цвет */
+    padding: 20px; /* Внутренние отступы */
+    border-radius: 0; /* Радиус скругления углов */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Тень вокруг элемента */
+}
+
+.league-table h2 {
+    background-color: #1A0A40; /* Фоновый цвет заголовка */
+    color: #ffffff; /* Цвет текста */
+    text-align: center;
+    padding: 15px 20px; /* Внутренние отступы */
+    margin: -20px -20px 10px -20px; /* Внешние отступы */
+    font-weight: bold; /* Жирный шрифт */
+    font-size: 20px; /* Размер шрифта */
+}
+
+.stats-row {
+    display: flex;
+    justify-content: space-between; /* Равномерное распределение пространства между блоками */
+    gap: 20px; /* Промежуток между блоками */
+}
+
+.goal, .assist {
+    flex: 1; /* Одинаковая ширина для обоих блоков */
+    background-color: #ffffff; /* Фоновый цвет */
+    padding: 20px; /* Внутренние отступы */
+    border-radius: 0; /* Радиус скругления углов */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Тень вокруг элемента */
+}
+
+.goal h2, .assist h2 {
+    background-color: #1A0A40; /* Фоновый цвет заголовка */
+    color: #ffffff; /* Цвет текста */
+    padding: 15px 20px; /* Внутренние отступы */
+    margin: -20px -20px 10px -20px; /* Внешние отступы */
+    font-weight: bold; /* Жирный шрифт */
+    font-size: 20px; /* Размер шрифта */
+}
+
+.goaler, .assistants { 
+    display: flex;
+    justify-content: center; /* Центрируем фотографии по горизонтали */
+    margin-top: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: center; /* Центрируем фотографии по горизонтали */
+}
